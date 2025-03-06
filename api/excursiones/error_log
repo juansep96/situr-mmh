@@ -1,0 +1,8 @@
+[14-Jun-2024 12:38:33 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: dia_activity in /home/infotur/public_html/api/actividades/ObtenerActividades.php on line 86
+[14-Jun-2024 12:38:33 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: horario_activity in /home/infotur/public_html/api/actividades/ObtenerActividades.php on line 87
+[14-Jun-2024 12:38:37 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: dia_activity in /home/infotur/public_html/api/actividades/ObtenerActividades.php on line 86
+[14-Jun-2024 12:38:37 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: horario_activity in /home/infotur/public_html/api/actividades/ObtenerActividades.php on line 87
+[14-Jun-2024 12:39:54 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: horario_activity in /home/infotur/public_html/api/actividades/ObtenerActividades.php on line 87
+[14-Jun-2024 12:40:30 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: horario_activity in /home/infotur/public_html/api/actividades/ObtenerActividades.php on line 87
+[14-Jun-2024 12:58:22 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: actividad in /home/infotur/public_html/api/excursiones/ObtenerExcursiones.php on line 11
+[14-Jun-2024 13:00:40 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: actividad in /home/infotur/public_html/api/excursiones/ObtenerExcursiones.php on line 11

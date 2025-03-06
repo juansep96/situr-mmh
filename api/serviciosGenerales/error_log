@@ -1,0 +1,47 @@
+[21-Jun-2024 22:16:34 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on null in /home/infotur/public_html/api/serviciosGenerales/ObtenerProfesional.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/infotur/public_html/api/serviciosGenerales/ObtenerProfesional.php on line 12
+[21-Jun-2024 22:17:17 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on null in /home/infotur/public_html/api/serviciosGenerales/ObtenerProfesional.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/infotur/public_html/api/serviciosGenerales/ObtenerProfesional.php on line 12
+[21-Jun-2024 22:20:29 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on null in /home/infotur/public_html/api/serviciosGenerales/ObtenerProfesional.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/infotur/public_html/api/serviciosGenerales/ObtenerProfesional.php on line 12
+[21-Jun-2024 22:21:12 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on null in /home/infotur/public_html/api/serviciosGenerales/ObtenerProfesional.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/infotur/public_html/api/serviciosGenerales/ObtenerProfesional.php on line 12
+[21-Jun-2024 22:21:15 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on null in /home/infotur/public_html/api/serviciosGenerales/ObtenerProfesional.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/infotur/public_html/api/serviciosGenerales/ObtenerProfesional.php on line 12
+[21-Jun-2024 22:21:18 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on null in /home/infotur/public_html/api/serviciosGenerales/ObtenerProfesional.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/infotur/public_html/api/serviciosGenerales/ObtenerProfesional.php on line 12
+[21-Jun-2024 22:21:36 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on null in /home/infotur/public_html/api/serviciosGenerales/ObtenerProfesional.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/infotur/public_html/api/serviciosGenerales/ObtenerProfesional.php on line 12
+[21-Jun-2024 22:21:56 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: $idProfesional in /home/infotur/public_html/api/serviciosGenerales/ObtenerProfesional.php on line 9
+[21-Jun-2024 22:21:56 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: ObtenerServicios in /home/infotur/public_html/api/serviciosGenerales/ObtenerProfesional.php on line 16
+[21-Jun-2024 22:21:56 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on null in /home/infotur/public_html/api/serviciosGenerales/ObtenerProfesional.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/infotur/public_html/api/serviciosGenerales/ObtenerProfesional.php on line 16
+[21-Jun-2024 22:22:35 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on null in /home/infotur/public_html/api/serviciosGenerales/ObtenerProfesional.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/infotur/public_html/api/serviciosGenerales/ObtenerProfesional.php on line 12
+[21-Jun-2024 22:22:39 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on null in /home/infotur/public_html/api/serviciosGenerales/ObtenerProfesional.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/infotur/public_html/api/serviciosGenerales/ObtenerProfesional.php on line 12
+[21-Jun-2024 22:22:49 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: ObtenerServicios in /home/infotur/public_html/api/serviciosGenerales/ObtenerProfesional.php on line 16
+[21-Jun-2024 22:22:49 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on null in /home/infotur/public_html/api/serviciosGenerales/ObtenerProfesional.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/infotur/public_html/api/serviciosGenerales/ObtenerProfesional.php on line 16

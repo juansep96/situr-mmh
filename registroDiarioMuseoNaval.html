@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="es" class="light-theme">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="assets/images/favicon-32x32.png" type="image/png" />
+  <!--plugins-->
+  <link href="assets/plugins/simplebar/css/simplebar.css" rel="stylesheet" />
+  <link href="assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet" />
+  <link href="assets/plugins/metismenu/css/metisMenu.min.css" rel="stylesheet" />
+  <link href="assets/plugins/select2/css/select2.min.css" rel="stylesheet" />
+  <link href="assets/plugins/select2/css/select2-bootstrap4.css" rel="stylesheet" />
+  <link href="assets/plugins/input-tags/css/tagsinput.css" rel="stylesheet" />
+  <link href="assets/plugins/datatable/css/dataTables.bootstrap5.min.css" rel="stylesheet" />
+
+  <!-- Bootstrap CSS -->
+  <link href="assets/css/bootstrap.css" rel="stylesheet" />
+  <link href="assets/css/bootstrap-extended.css" rel="stylesheet" />
+  <link href="assets/css/style.css" rel="stylesheet" />
+  <link href="assets/css/icons.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./assets/plugins/notifications/css/lobibox.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/bbbootstrap/libraries@main/choices.min.css">
+    
+  <!-- loader-->
+	<link href="assets/css/pace.min.css" rel="stylesheet" />
+
+  <script src="//momentjs.com/downloads/moment.min.js"></script> <!--Moments Library-->
+
+
+
+  <!--Theme Styles-->
+  <link href="assets/css/light-theme.css" rel="stylesheet" />
+  <link href="assets/css/header-colors.css" rel="stylesheet" />
+
+  <script src="./assets/js/jquery-3.6.0.js" ></script>
+
+  <script src="./assets/plugins/metismenu/js/metisMenu.min.js"></script>
+<script src="./assets/plugins/perfect-scrollbar/js/perfect-scrollbar.js"></script>
+
+  <style>
+    .input-group{
+      margin-top:20px !important
+    }
+  </style>
+  
+  <title>SigTur - Registro Diario - Museo Naval - Secretarìa de Turismo de Monte Hermoso</title>
+
+  <script>
+    $.post("./api/ObtenerSesion")
+    .then((res)=>{
+      if(res=="NO"){
+        window.location.href = "https://infotur.montehermoso.gov.ar/";
+      }
+    })
+  </script>
+  <style>
+    tr{
+      text-align: center;
+    }
+    .choices{
+        width: 85%;
+    }
+    td{
+        text-align: center;
+    }
+    option{
+        text-align: center;
+    }
+  </style>
+
+</head>
+
+<body onload="CargarProvinciasSelect();">
+
+
+  <!--start wrapper-->
+  <div class="wrapper">
+    <div id="menu"></div>
+    <script>
+        $.get("menu.html", async function(data){
+            await $("#menu").html(data);
+        });
+    </script>
+
+       <!--start content-->
+       <main class="page-content">
+				<!--breadcrumb-->
+				<div class="page-breadcrumb d-none d-sm-flex align-items-center mb-3">
+					<div class="breadcrumb-title pe-3">Museo Naval</div>
+					<div class="ps-3">
+						<nav aria-label="breadcrumb">
+							<ol class="breadcrumb mb-0 p-0">
+								<li class="breadcrumb-item active" aria-current="page">Registro Diario</li>
+							</ol>
+						</nav>
+					</div>
+				</div>
+				<!--end breadcrumb-->
+				<div class="row">
+					<div class="col-xl-12 col-xs-12 mx-auto">
+						<div class="card mt-1">
+							<div class="card-body" style="margin-left:30px !important">
+                                <div class="row mt-1">
+                                    <div class="col-10">
+                                        <h5 class="text-center">Listado de Registros Diarios</h5>
+                                    </div>
+                                    <div class="col-2">
+                                        <button type="button" data-bs-toggle="modal" data-bs-target="#modalNuevoRegistro" onclick="verificarPaisOrigen();" class="btn btn-red"><i class="bx bx-plus-medical"></i>Registro</button>
+                                    </div>
+                                </div>   
+                                <div class="row mb-4">
+                                    <div class="col-6">
+                                      <div class="input-group p-2">
+                                        <span class="input-group-text">Desde</span>
+                                        <input type="date" onchange="cargarRegistros();" id="fechaDesde" class="form-control">
+                                      </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="input-group p-2">
+                                          <span class="input-group-text">Hasta</span>
+                                          <input type="date" onchange="cargarRegistros();" id="fechaHasta" class="form-control">
+                                        </div>
+                                      </div>                              
+                                </div>                             
+                            <div class="table-responsive">
+                            <table id="registros" class="table table-striped table-bordered ">
+                                <thead>
+                                <tr>
+                                    <th>HORA</th>
+                                    <th>REALIZADA POR</th>
+                                    <th>PRIMERA VEZ</th>
+                                    <th>GRUPO FAMILIAR</th>
+                                    <th>PAIS</th>
+                                    <th>PROVINCIA</th>
+                                    <th>CIUDAD</th>
+                                    <th>COMENTARIOS</th>
+                                    <th>ACCIONES</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                </tbody>
+                            </table>
+                            </div>
+                        </div>
+  					</div>
+  				</div>
+				<!--end row-->
+			</main>
+       <!--end page main-->
+
+    
+  <!--end wrapper-->
+
+  <div class="modal fade" id="modalNuevoRegistro" tabindex="-1" aria-hidden="true">
+    <div class="modal-lg modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Nuevo Registro</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+
+            <div class="input-group">
+                <span class="input-group-text">Pais de Origen</span>
+                <select onchange="verificarPaisOrigen()" id="paisOrigen" class="form-control">
+                </select>
+            </div>
+
+
+            <div hidden class="input-group argentina">
+                <span class="input-group-text">Provincia</span>
+                <select onchange="CargarCiudadesSelect()" id="provincia_nuevo" class="form-control">
+
+                </select>
+            </div>
+            <div hidden class="input-group argentina">
+                <span class="input-group-text">Ciudad</span>
+                <select id="ciudad_nuevo" class="form-control">
+
+                </select>
+            </div>
+            <div class="input-group">
+                    <span class="input-group-text">Grupo Familiar</span><input type="number" step="1" id="grupo_nuevo" class="form-control">
+                    <span class="input-group-text">Comentarios</span><input type="text" id="comentarios_nuevo" class="form-control">
+
+            </div>
+            <div class="input-group">
+                <div class="form-check form-switch" style="margin: auto;font-size:1.5em">
+                    <input class="form-check-input" type="checkbox" role="switch" id="primeraVez_nuevo" checked>
+                    <label class="form-check-label" for="primeraVez_nuevo">Primera vez?</label>
+                </div>
+            </div>
+           
+        </div>
+        <div class="modal-footer">
+            <div class="col-9"></div>
+            <div class="col-3" >
+                <button onclick="guardarRegistro();" type="button" class="btn btn-red right"><i class="bx bx-plus-medical"></i>Guardar</button>
+            </div>
+        </div>
+      </div>
+  </div>
+  </div>
+
+  <!-- Bootstrap bundle JS -->
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <!--plugins-->
+  <script src="./assets/js/pace.min.js"></script>
+  <script src="./assets/plugins/select2/js/select2.min.js"></script>
+  <script src="./assets/plugins/input-tags/js/tagsinput.js"></script>
+  <script src="./assets/js/form-select2.js"></script>
+  <script src="./assets/plugins/notifications/js/notifications.js"></script>
+  <script src="./assets/plugins/notifications/js/lobibox.js"></script>
+  <script src="assets/plugins/datatable/js/jquery.dataTables.min.js"></script>
+  <script src="assets/plugins/datatable/js/dataTables.bootstrap5.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/bbbootstrap/libraries@main/choices.min.js"></script>
+  <!--app-->
+  <script src="./js/museoNaval.js?v=0.9"></script>
+  <script src="assets/js/app.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+[12-May-2024 13:05:58 America/New_York] PHP Warning:  require_once(../../PDO.php): failed to open stream: No such file or directory in /home/infotur/public_html/api/laguna/ActualizarPrecio.php on line 3
+[12-May-2024 13:05:58 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../../PDO.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/infotur/public_html/api/laguna/ActualizarPrecio.php on line 3
+[20-May-2024 23:47:26 America/Argentina/Buenos_Aires] PHP Warning:  Invalid argument supplied for foreach() in /home/infotur/public_html/api/laguna/ObtenerIngresos.php on line 59
+[20-May-2024 23:48:29 America/Argentina/Buenos_Aires] PHP Warning:  Invalid argument supplied for foreach() in /home/infotur/public_html/api/laguna/ObtenerIngresos.php on line 59
+[20-May-2024 23:48:35 America/Argentina/Buenos_Aires] PHP Warning:  Invalid argument supplied for foreach() in /home/infotur/public_html/api/laguna/ObtenerIngresos.php on line 59
+[20-May-2024 23:49:04 America/Argentina/Buenos_Aires] PHP Warning:  Invalid argument supplied for foreach() in /home/infotur/public_html/api/laguna/ObtenerIngresos.php on line 59
+[21-May-2024 02:21:48 America/Argentina/Buenos_Aires] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/infotur/public_html/api/laguna/NuevaRC.php on line 25
+[21-May-2024 02:23:18 America/Argentina/Buenos_Aires] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/infotur/public_html/api/laguna/NuevaRC.php on line 25
+[21-May-2024 02:31:06 America/Argentina/Buenos_Aires] PHP Warning:  Invalid argument supplied for foreach() in /home/infotur/public_html/api/laguna/ObtenerRC.php on line 60
+[21-May-2024 02:31:35 America/Argentina/Buenos_Aires] PHP Warning:  Invalid argument supplied for foreach() in /home/infotur/public_html/api/laguna/ObtenerRC.php on line 60
+[21-May-2024 02:32:29 America/Argentina/Buenos_Aires] PHP Warning:  Invalid argument supplied for foreach() in /home/infotur/public_html/api/laguna/ObtenerRC.php on line 60
+[21-May-2024 02:32:45 America/Argentina/Buenos_Aires] PHP Warning:  Invalid argument supplied for foreach() in /home/infotur/public_html/api/laguna/ObtenerRC.php on line 60
+[21-May-2024 02:33:01 America/Argentina/Buenos_Aires] PHP Warning:  Invalid argument supplied for foreach() in /home/infotur/public_html/api/laguna/ObtenerRC.php on line 60
+[21-May-2024 02:33:09 America/Argentina/Buenos_Aires] PHP Warning:  Invalid argument supplied for foreach() in /home/infotur/public_html/api/laguna/ObtenerRC.php on line 60

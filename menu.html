@@ -1,0 +1,682 @@
+<style>
+    #mensaje{
+        font-size:1.5em;
+        width: 100% !important;
+    }
+    #mensaje2{
+        font-size:1.5em;
+        width: 100% !important;
+    }
+    .col-12{
+        display:inline-flex !important
+    }
+    .small-icon{
+      font-size: 1.5em !important;
+    }
+    .sidebar-wrapper {
+    min-height: 100vh;
+    max-height: 100vh;
+    overflow-y: scroll;
+    }
+
+    .sidebar-wrapper::-webkit-scrollbar {
+        width: 0 !important;
+    }
+
+</style>
+
+<script src="./assets/plugins/metismenu/js/metisMenu.min.js"></script>
+<script src="./assets/plugins/perfect-scrollbar/js/perfect-scrollbar.js"></script>
+
+
+
+
+<div id="menu">
+    <div class="d-none d-sm-none d-md-block">
+        <header class="top-header">
+            <nav class="navbar navbar-expand gap-3 row p-3">
+            <div class="col-4 text-center p-3">
+                <h4 id="mensaje"></h4>
+            </div>
+            <div class="col-8 text-center p-3">
+                <h4 id="dependencia"></h4>
+            </div>
+            </nav>
+        </header>
+  <aside class="sidebar-wrapper" data-simplebar="true">
+    <div class="sidebar-header">
+      <div>
+        <h4 class="logo-text">SigTur v1.3</h4>
+      </div>
+      <div class="toggle-icon ms-auto"> <i class="bi bi-list"></i>
+      </div>
+    </div>
+    <ul hidden class="metismenu" id="menuTurismoAdmin">
+      <li>
+        <a href="inicio.html">
+          <div class="parent-icon"><i class="bi bi-house-fill"></i>
+          </div>
+          <div class="menu-title">Inicio</div>
+        </a>
+      </li>
+
+      <li>
+        <a href="javascript:;" class="has-arrow">
+          <div class="parent-icon"><i class="bx bxs-building"></i>
+          </div>
+          <div class="menu-title">Mi Dependencia</div>
+        </a>
+        <ul>
+          <li><a href="relevamientos.html"><i class='bx bx-hotel small-icon' ></i>Relevamientos Diarios de Alojamientos</a>
+          </li>
+          <li><a href="atencionesTuristicas.html"><i class='bx bx-plus-medical small-icon'></i>Ingresos</a>
+          </li>
+          <li><a href="atencionesEventos.html"><i class='bx bxs-calendar-event small-icon' ></i>Encuestas de Eventos y Actividades</a>
+          </li>
+        </ul>
+      </li>
+
+      <li>
+        <a href="javascript:;" class="has-arrow">
+          <div class="parent-icon"><i class="bx bx-water"></i>
+          </div>
+          <div class="menu-title">Laguna Sauce Grande</div>
+        </a>
+        <ul>
+            <li><a href="ingresosLaguna.html"><i class='bx bx-plus-medical small-icon'></i>Ingresos</a>
+            </li>
+            <li><a href="cierresLaguna.html"><i class='bx bx-dollar small-icon'></i>Cierres de Caja</a>
+            </li>
+            <li><a href="responsabilidadCivilLaguna.html"><i class='bx bx-body small-icon' ></i>Responsabilidad Civil</a>
+            </li>
+        </ul>
+      </li>
+
+      <li>
+        <a href="javascript:;" class="has-arrow">
+          <div class="parent-icon"><i class="bx bxs-factory"></i>
+          </div>
+          <div class="menu-title">Museo Historico</div>
+        </a>
+        <ul>
+            <li><a href="registroDiarioMuseoHistorico.html"><i class='bx bx-plus-medical small-icon'></i>Registro Diario</a>
+            </li>
+            <li><a href="salidasInstitucionesMuseoHistorico.html"><i class='bx bxs-business small-icon'></i>Salidas a Instituciones</a>
+            </li>
+            <li><a href="visitasGuiadasMuseoHistorico.html"><i class='bx bxs-map-alt small-icon' ></i>Visitas Guiadas </a>
+            </li>
+        </ul>
+      </li>
+
+      <li>
+        <a href="javascript:;" class="has-arrow">
+          <div class="parent-icon"><i class="bx bxs-tree"></i>
+          </div>
+          <div class="menu-title">Museo de Ciencias Naturales</div>
+        </a>
+        <ul>
+            <li><a href="registroDiarioMuseoNaturales.html"><i class='bx bx-plus-medical small-icon'></i>Registro Diario</a>
+            </li>
+            <li><a href="visitasGuiadasMuseoNaturales.html"><i class='bx bx-walk small-icon'></i>Visitas Guiadas a Reserva Natural</a>
+            </li>
+            <li><a href="salidasInstitucionesMuseoNaturales.html"><i class='bx bxs-business small-icon'></i>Visitas Instituciones</a>
+            </li>
+        </ul>
+      </li>
+
+      <li>
+        <a href="javascript:;" class="has-arrow">
+          <div class="parent-icon"><i class="bx bxs-ship"></i>
+          </div>
+          <div class="menu-title">Museo Naval</div>
+        </a>
+        <ul>
+            <li><a href="registroDiarioMuseoNaval.html"><i class='bx bx-plus-medical small-icon'></i>Registro Diario</a>
+            </li>
+        </ul>
+      </li>
+
+      <li>
+        <a href="javascript:;" class="has-arrow">
+          <div class="parent-icon"><i class="bx bx-info-circle"></i>
+          </div>
+          <div class="menu-title">Informes Sauce Grande</div>
+        </a>
+        <ul>
+            <li><a href="atencionesTuristicasSG.html"><i class='bx bxs-institution small-icon'></i>Encuestas de At. Turisticas</a>
+            </li>
+        </ul>
+      </li>
+
+      <li>
+        <a href="javascript:;" class="has-arrow">
+          <div class="parent-icon"><i class="bx bx-info-circle"></i>
+          </div>
+          <div class="menu-title">Informes Terminal de Ómnibus</div>
+        </a>
+        <ul>
+            <li><a href="atencionesTuristicasTerminal.html"><i class='bx bxs-institution small-icon'></i>Encuestas de At. Turisticas</a>
+            </li>
+        </ul>
+      </li>
+
+      <li>
+        <a href="javascript:;" class="has-arrow">
+          <div class="parent-icon"><i class="bx bxs-hotel"></i>
+          </div>
+          <div class="menu-title">Informacion Turistica</div>
+        </a>
+        <ul>
+            <li><a href="listadoAlojamientos.html"><i class='bx bxs-bed small-icon' ></i>Alojamientos</a>
+            </li>         
+            <li><a href="listadoTransportes.html"><i class='bx bxs-bus small-icon' ></i>Transportes</a>
+            </li>
+            <li><a href="listadoGastronomia.html"><i class='bx bxs-food-menu small-icon' ></i>Gastronomia</a>
+            </li>
+            <li><a href="atractivosTuristicos.html"><i class='bx bx-world small-icon' ></i>Atractivos Turisticos</a>
+            </li>
+            <li><a href="excursiones.html"><i class='bx bx-walk small-icon' ></i>Excursiones</a>
+            </li>
+            <li><a href="actividades.html"><i class='bx bxs-time small-icon' ></i>Actividades Programadas</a>
+            </li>
+            <li><a href="listadoServicios.html"><i class='bx bxs-briefcase small-icon' ></i>Servicios Generales</a>
+            </li>
+            <li><a href="telefonosUtiles.html"><i class='bx bxs-phone small-icon' ></i>Telefonos Útiles</a>
+            </li>
+        </ul>
+      </li>
+
+      <li>
+        <a href="javascript:;" class="has-arrow">
+          <div class="parent-icon"><i class="bx bx-cog"></i>
+          </div>
+          <div class="menu-title">Configuraciones</div>
+        </a>
+        <ul>
+          <li><a href="usuarios.html"><i class='bx bx-user small-icon' ></i>Usuarios</a>
+          </li>
+          <li><a href="alojamientos.html"><i class='bx bxs-hotel small-icon' ></i>Alojamientos</a>
+          </li>
+          <li><a href="gastronomia.html"><i class='bx bx-restaurant small-icon'></i>Gastronomia</a>
+          </li>
+          <li hidden><a href="ciudades.html"><i class='bx bxs-city small-icon'></i>Ciudades</a>
+          </li>
+          <li><a href="transportes.html"><i class='bx bxs-bus small-icon'></i>Transportes</a>
+          </li>
+          <li><a href="servicios.html"><i class='bx bxs-book small-icon'></i>Prof. y Servicios</a>
+          </li>
+          <li><a href="preciosLaguna.html"><i class='bx bx-dollar small-icon'></i>Precios Laguna</a>
+          </li>
+          <li><a href="instituciones.html"><i class='bx bxs-factory small-icon'></i>Instituciones</a>
+          </li>
+          <li><a href="tipoEncuestas.html"><i class='bx bx-user small-icon'></i>Motivos de Consultas</a>
+          </li>
+        </ul>
+      </li>   
+
+      <li>
+        <a href="checkout.html">
+          <div class="parent-icon"><i class="bx bx-user-x"></i>
+          </div>
+          <div class="menu-title">Cerrar Sesión</div>
+        </a>
+      </li>
+
+    </ul>
+    <ul hidden class="metismenu" id="menuTurismoUsuario">
+        <li>
+            <a href="inicio.html">
+              <div class="parent-icon"><i class="bi bi-house-fill"></i>
+              </div>
+              <div class="menu-title">Inicio</div>
+            </a>
+          </li>
+    
+          <li>
+            <a href="javascript:;" class="has-arrow">
+              <div class="parent-icon"><i class="bx bxs-hotel"></i>
+              </div>
+              <div class="menu-title">Mi Dependencia</div>
+            </a>
+            <ul>
+              <li><a href="relevamientos.html"><i class='bx bx-user small-icon' ></i>Relevamientos Diarios de Alojamientos</a>
+              </li>
+              <li><a href="atencionesTuristicas.html"><i class='bx bx-plus-medical small-icon'></i>Ingresos</a>
+              </li>
+              <li><a href="atencionesEventos.html"><i class='bx bxs-calendar-event small-icon' ></i>Encuestas de Eventos y Actividades</a>
+              </li>
+            </ul>
+          </li>
+    
+          <li>
+            <a href="javascript:;" class="has-arrow">
+              <div class="parent-icon"><i class="bx bxs-hotel"></i>
+              </div>
+              <div class="menu-title">Informacion Turistica</div>
+            </a>
+            <ul>
+                <li><a href="listadoAlojamientos.html"><i class='bx bxs-bed small-icon' ></i>Alojamientos</a>
+                </li>         
+                <li><a href="listadoTransportes.html"><i class='bx bxs-bus small-icon' ></i>Transportes</a>
+                </li>
+                <li><a href="listadoGastronomia.html"><i class='bx bxs-food-menu small-icon' ></i>Gastronomia</a>
+                </li>
+                <li><a href="atractivosTuristicos.html"><i class='bx bx-world small-icon' ></i>Atractivos Turisticos</a>
+                </li>
+                <li><a href="excursiones.html"><i class='bx bx-walk small-icon' ></i>Excursiones</a>
+                </li>
+                <li><a href="actividades.html"><i class='bx bxs-time small-icon' ></i>Actividades Programadas</a>
+                </li>
+                <li><a href="listadoServicios.html"><i class='bx bxs-briefcase small-icon' ></i>Servicios Generales</a>
+                </li>
+                <li><a href="telefonosUtiles.html"><i class='bx bxs-phone small-icon' ></i>Telefonos Útiles</a>
+                </li>
+            </ul>
+          </li>    
+          <li>
+            <a href="checkout.html">
+              <div class="parent-icon"><i class="bx bx-user-x"></i>
+              </div>
+              <div class="menu-title">Cerrar Sesión</div>
+            </a>
+          </li>
+  
+    </ul>
+    <ul hidden class="metismenu" id="menuLaguna">
+        <li>
+            <a href="inicio.html">
+              <div class="parent-icon"><i class="bi bi-house-fill"></i>
+              </div>
+              <div class="menu-title">Inicio</div>
+            </a>
+          </li>
+    
+          <li>
+            <a href="javascript:;" class="has-arrow">
+              <div class="parent-icon"><i class="bx bxs-hotel"></i>
+              </div>
+              <div class="menu-title">Mi Dependencia</div>
+            </a>
+            <ul>
+              <li><a href="ingresosLaguna.html"><i class='bx bx-plus-medical small-icon'></i>Ingresos</a>
+              </li>
+              <li><a href="cierresLaguna.html"><i class='bx bx-dollar small-icon'></i>Cierres de Caja</a>
+              </li>
+              <li><a href="responsabilidadCivilLaguna.html"><i class='bx bxs-calendar-event small-icon' ></i>Responsabilidad Civil</a>
+              </li>
+            </ul>
+          </li>
+    
+          <li>
+            <a href="javascript:;" class="has-arrow">
+              <div class="parent-icon"><i class="bx bxs-hotel"></i>
+              </div>
+              <div class="menu-title">Informacion Turistica</div>
+            </a>
+            <ul>
+                <li><a href="listadoAlojamientos.html"><i class='bx bxs-bed small-icon' ></i>Alojamientos</a>
+                </li>       
+                <li><a href="listadoTransportes.html"><i class='bx bxs-bus small-icon' ></i>Transportes</a>
+                </li>
+                <li><a href="listadoGastronomia.html"><i class='bx bxs-food-menu small-icon' ></i>Gastronomia</a>
+                </li>
+                <li><a href="atractivosTuristicos.html"><i class='bx bx-world small-icon' ></i>Atractivos Turisticos</a>
+                </li>
+                <li><a href="excursiones.html"><i class='bx bx-walk small-icon' ></i>Excursiones</a>
+                </li>
+                <li><a href="actividades.html"><i class='bx bxs-time small-icon' ></i>Actividades Programadas</a>
+                </li>
+                <li><a href="listadoServicios.html"><i class='bx bxs-briefcase small-icon' ></i>Servicios Generales</a>
+                </li>
+                <li><a href="telefonosUtiles.html"><i class='bx bxs-phone small-icon' ></i>Telefonos Útiles</a>
+                </li>
+            </ul>
+          </li>    
+          <li>
+            <a href="checkout.html">
+              <div class="parent-icon"><i class="bx bx-user-x"></i>
+              </div>
+              <div class="menu-title">Cerrar Sesión</div>
+            </a>
+          </li>
+  
+    </ul>
+    <ul hidden class="metismenu" id="menuMuseoHistorico">
+        <li>
+            <a href="inicio.html">
+              <div class="parent-icon"><i class="bi bi-house-fill"></i>
+              </div>
+              <div class="menu-title">Inicio</div>
+            </a>
+          </li>
+    
+          <li>
+            <a href="javascript:;" class="has-arrow">
+              <div class="parent-icon"><i class="bx bxs-hotel"></i>
+              </div>
+              <div class="menu-title">Mi Dependencia</div>
+            </a>
+            <ul>
+                <li><a href="registroDiarioMuseoHistorico.html"><i class='bx bx-plus-medical small-icon'></i>Registro Diario</a>
+                </li>
+                <li><a href="salidasInstitucionesMuseoHistorico.html"><i class='bx bxs-business small-icon'></i>Salidas a Instituciones</a>
+                </li>
+                <li><a href="visitasGuiadasMuseoHistorico.html"><i class='bx bxs-map-alt small-icon' ></i>Visitas Guiadas </a>
+                </li>
+            </ul>
+          </li>
+    
+          <li>
+            <a href="javascript:;" class="has-arrow">
+              <div class="parent-icon"><i class="bx bxs-hotel"></i>
+              </div>
+              <div class="menu-title">Informacion Turistica</div>
+            </a>
+            <ul>
+                <li><a href="listadoAlojamientos.html"><i class='bx bxs-bed small-icon' ></i>Alojamientos</a>
+                </li>       
+                <li><a href="listadoTransportes.html"><i class='bx bxs-bus small-icon' ></i>Transportes</a>
+                </li>
+                <li><a href="listadoGastronomia.html"><i class='bx bxs-food-menu small-icon' ></i>Gastronomia</a>
+                </li>
+                <li><a href="atractivosTuristicos.html"><i class='bx bx-world small-icon' ></i>Atractivos Turisticos</a>
+                </li>
+                <li><a href="excursiones.html"><i class='bx bx-walk small-icon' ></i>Excursiones</a>
+                </li>
+                <li><a href="actividades.html"><i class='bx bxs-time small-icon' ></i>Actividades Programadas</a>
+                </li>
+                <li><a href="listadoServicios.html"><i class='bx bxs-briefcase small-icon' ></i>Servicios Generales</a>
+                </li>
+                <li><a href="telefonosUtiles.html"><i class='bx bxs-phone small-icon' ></i>Telefonos Útiles</a>
+                </li>
+            </ul>
+          </li>      
+          <li>
+            <a href="checkout.html">
+              <div class="parent-icon"><i class="bx bx-user-x"></i>
+              </div>
+              <div class="menu-title">Cerrar Sesión</div>
+            </a>
+          </li>
+  
+    </ul>
+    <ul hidden class="metismenu" id="menuMuseoCienciasNaturales">
+        <li>
+            <a href="inicio.html">
+              <div class="parent-icon"><i class="bi bi-house-fill"></i>
+              </div>
+              <div class="menu-title">Inicio</div>
+            </a>
+          </li>
+    
+          <li>
+            <a href="javascript:;" class="has-arrow">
+              <div class="parent-icon"><i class="bx bxs-hotel"></i>
+              </div>
+              <div class="menu-title">Mi Dependencia</div>
+            </a>
+            <ul>
+                <li><a href="registroDiarioMuseoNaturales.html"><i class='bx bx-plus-medical small-icon'></i>Registro Diario</a>
+                </li>
+                <li><a href="visitasGuiadasMuseoNaturales.html"><i class='bx bx-walk small-icon'></i>Visitas Guiadas a Reserva Natural</a>
+                </li>
+                <li><a href="salidasInstitucionesMuseoNaturales.html"><i class='bx bxs-business small-icon'></i>Visitas Instituciones</a>
+                </li>
+            </ul>
+          </li>
+    
+          <li>
+            <a href="javascript:;" class="has-arrow">
+              <div class="parent-icon"><i class="bx bxs-hotel"></i>
+              </div>
+              <div class="menu-title">Informacion Turistica</div>
+            </a>
+            <ul>
+                <li><a href="listadoAlojamientos.html"><i class='bx bxs-bed small-icon' ></i>Alojamientos</a>
+                </li>       
+                <li><a href="listadoTransportes.html"><i class='bx bxs-bus small-icon' ></i>Transportes</a>
+                </li>
+                <li><a href="listadoGastronomia.html"><i class='bx bxs-food-menu small-icon' ></i>Gastronomia</a>
+                </li>
+                <li><a href="atractivosTuristicos.html"><i class='bx bx-world small-icon' ></i>Atractivos Turisticos</a>
+                </li>
+                <li><a href="excursiones.html"><i class='bx bx-walk small-icon' ></i>Excursiones</a>
+                </li>
+                <li><a href="actividades.html"><i class='bx bxs-time small-icon' ></i>Actividades Programadas</a>
+                </li>
+                <li><a href="listadoServicios.html"><i class='bx bxs-briefcase small-icon' ></i>Servicios Generales</a>
+                </li>
+                <li><a href="telefonosUtiles.html"><i class='bx bxs-phone small-icon' ></i>Telefonos Útiles</a>
+                </li>
+            </ul>
+          </li>    
+          <li>
+            <a href="checkout.html">
+              <div class="parent-icon"><i class="bx bx-user-x"></i>
+              </div>
+              <div class="menu-title">Cerrar Sesión</div>
+            </a>
+          </li>
+  
+    </ul>
+    <ul hidden class="metismenu" id="menuMuseoNaval">
+        <li>
+            <a href="inicio.html">
+              <div class="parent-icon"><i class="bi bi-house-fill"></i>
+              </div>
+              <div class="menu-title">Inicio</div>
+            </a>
+          </li>
+    
+          <li>
+            <a href="javascript:;" class="has-arrow">
+              <div class="parent-icon"><i class="bx bxs-hotel"></i>
+              </div>
+              <div class="menu-title">Mi Dependencia</div>
+            </a>
+            <ul>
+                <li><a href="registroDiarioMuseoNaval.html"><i class='bx bx-plus-medical small-icon'></i>Registro Diario</a>
+                </li>
+            </ul>
+          </li>
+    
+          <li>
+            <a href="javascript:;" class="has-arrow">
+              <div class="parent-icon"><i class="bx bxs-hotel"></i>
+              </div>
+              <div class="menu-title">Informacion Turistica</div>
+            </a>
+            <ul>
+                <li><a href="listadoAlojamientos.html"><i class='bx bxs-bed small-icon' ></i>Alojamientos</a>
+                </li>         
+                <li><a href="listadoTransportes.html"><i class='bx bxs-bus small-icon' ></i>Transportes</a>
+                </li>
+                <li><a href="listadoGastronomia.html"><i class='bx bxs-food-menu small-icon' ></i>Gastronomia</a>
+                </li>
+                <li><a href="atractivosTuristicos.html"><i class='bx bx-world small-icon' ></i>Atractivos Turisticos</a>
+                </li>
+                <li><a href="excursiones.html"><i class='bx bx-walk small-icon' ></i>Excursiones</a>
+                </li>
+                <li><a href="actividades.html"><i class='bx bxs-time small-icon' ></i>Actividades Programadas</a>
+                </li>
+                <li><a href="listadoServicios.html"><i class='bx bxs-briefcase small-icon' ></i>Servicios Generales</a>
+                </li>
+                <li><a href="telefonosUtiles.html"><i class='bx bxs-phone small-icon' ></i>Telefonos Útiles</a>
+                </li>
+            </ul>
+          </li>    
+          <li>
+            <a href="checkout.html">
+              <div class="parent-icon"><i class="bx bx-user-x"></i>
+              </div>
+              <div class="menu-title">Cerrar Sesión</div>
+            </a>
+          </li>
+  
+    </ul>
+    <ul hidden class="metismenu" id="menuInformesSG">
+        <li>
+            <a href="inicio.html">
+              <div class="parent-icon"><i class="bi bi-house-fill"></i>
+              </div>
+              <div class="menu-title">Inicio</div>
+            </a>
+          </li>
+    
+          <li>
+            <a href="javascript:;" class="has-arrow">
+              <div class="parent-icon"><i class="bx bxs-hotel"></i>
+              </div>
+              <div class="menu-title">Mi Dependencia</div>
+            </a>
+            <ul>
+                <li><a href="atencionesTuristicasSG.html"><i class='bx bxs-institution small-icon'></i>Encuestas de At. Turisticas</a>
+                </li>
+            </ul>
+          </li>
+    
+          <li>
+            <a href="javascript:;" class="has-arrow">
+              <div class="parent-icon"><i class="bx bxs-hotel"></i>
+              </div>
+              <div class="menu-title">Informacion Turistica</div>
+            </a>
+            <ul>
+                <li><a href="listadoAlojamientos.html"><i class='bx bxs-bed small-icon' ></i>Alojamientos</a>
+                </li>         
+                <li><a href="listadoTransportes.html"><i class='bx bxs-bus small-icon' ></i>Transportes</a>
+                </li>
+                <li><a href="listadoGastronomia.html"><i class='bx bxs-food-menu small-icon' ></i>Gastronomia</a>
+                </li>
+                <li><a href="atractivosTuristicos.html"><i class='bx bx-world small-icon' ></i>Atractivos Turisticos</a>
+                </li>
+                <li><a href="excursiones.html"><i class='bx bx-walk small-icon' ></i>Excursiones</a>
+                </li>
+                <li><a href="actividades.html"><i class='bx bxs-time small-icon' ></i>Actividades Programadas</a>
+                </li>
+                <li><a href="listadoServicios.html"><i class='bx bxs-briefcase small-icon' ></i>Servicios Generales</a>
+                </li>
+                <li><a href="telefonosUtiles.html"><i class='bx bxs-phone small-icon' ></i>Telefonos Útiles</a>
+                </li>
+            </ul>
+          </li>    
+          <li>
+            <a href="checkout.html">
+              <div class="parent-icon"><i class="bx bx-user-x"></i>
+              </div>
+              <div class="menu-title">Cerrar Sesión</div>
+            </a>
+          </li>
+  
+    </ul>
+    <ul hidden class="metismenu" id="menuInformesTerminal">
+        <li>
+            <a href="inicio.html">
+              <div class="parent-icon"><i class="bi bi-house-fill"></i>
+              </div>
+              <div class="menu-title">Inicio</div>
+            </a>
+          </li>
+    
+          <li>
+            <a href="javascript:;" class="has-arrow">
+              <div class="parent-icon"><i class="bx bxs-hotel"></i>
+              </div>
+              <div class="menu-title">Mi Dependencia</div>
+            </a>
+            <ul>
+                <li><a href="atencionesTuristicasTerminal.html"><i class='bx bxs-institution small-icon'></i>Encuestas de At. Turisticas</a>
+                </li>
+            </ul>
+          </li>
+    
+          <li>
+            <a href="javascript:;" class="has-arrow">
+              <div class="parent-icon"><i class="bx bxs-hotel"></i>
+              </div>
+              <div class="menu-title">Informacion Turistica</div>
+            </a>
+            <ul>
+                <li><a href="listadoAlojamientos.html"><i class='bx bxs-bed small-icon' ></i>Alojamientos</a>
+                </li>         
+                <li><a href="listadoTransportes.html"><i class='bx bxs-bus small-icon' ></i>Transportes</a>
+                </li>
+                <li><a href="listadoGastronomia.html"><i class='bx bxs-food-menu small-icon' ></i>Gastronomia</a>
+                </li>
+                <li><a href="atractivosTuristicos.html"><i class='bx bx-world small-icon' ></i>Atractivos Turisticos</a>
+                </li>
+                <li><a href="excursiones.html"><i class='bx bx-walk small-icon' ></i>Excursiones</a>
+                </li>
+                <li><a href="actividades.html"><i class='bx bxs-time small-icon' ></i>Actividades Programadas</a>
+                </li>
+                <li><a href="listadoServicios.html"><i class='bx bxs-briefcase small-icon' ></i>Servicios Generales</a>
+                </li>
+                <li><a href="telefonosUtiles.html"><i class='bx bxs-phone small-icon' ></i>Telefonos Útiles</a>
+                </li>
+            </ul>
+          </li>    
+          <li>
+            <a href="checkout.html">
+              <div class="parent-icon"><i class="bx bx-user-x"></i>
+              </div>
+              <div class="menu-title">Cerrar Sesión</div>
+            </a>
+          </li>
+  
+    </ul>
+  </aside>
+  </div>
+</div>
+
+
+
+<script>
+    var rol;
+                $.post("./api/ObtenerRol")
+                 .then(async (role)=>{
+                        rol=role;
+                        rol != 'Administrador' ?  $(".buttons-print").remove() : '';
+                        await $.post("./api/ObtenerNombre")
+                        .then(async (res)=>{
+                            $("#mensaje").html(res);
+                            $("#role").html('Permisos: '+rol);
+                            await $.post("./api/ObtenerDependencia")
+                                .then(async (dependencia)=>{
+                                    $("#dependencia").html(dependencia);
+                                    switch (dependencia) {
+                                        case "SECRETARIA DE TURISMO":
+                                            if(rol == 'Administrador'){
+                                                menu = "menuTurismoAdmin";
+                                            }else{
+                                                menu = "menuTurismoUsuario";
+                                            }
+                                        break;
+                                        case "LAGUNA SAUCE GRANDE":
+                                            menu = "menuLaguna";
+                                        break;
+                                        case "MUSEO DE CIENCIAS NATURALES":
+                                            menu = "menuMuseoCienciasNaturales";
+                                        break;
+                                        case "MUSEO HISTORICO":
+                                            menu = "menuMuseoHistorico";
+                                        break;
+                                        case "MUSEO NAVAL":
+                                            menu = "menuMuseoNaval";
+                                        break;
+                                        case "OFICINA INFORMES SAUCE GRANDE":
+                                            menu = "menuInformesSG";
+                                        break;
+                                        case "OFICINA INFORMES TERMINAL":
+                                            menu = "menuInformesTerminal";
+                                        break;
+                                        
+                                    }
+                                    $("#"+menu).prop('hidden',false);
+                                    new metisMenu("#"+menu);
+                                    new PerfectScrollbar("#"+menu);
+                                })
+                         })
+                 })
+   </script>
+
+   

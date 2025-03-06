@@ -1,0 +1,94 @@
+[14-Jun-2024 10:59:53 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: dia_tourist_atraction_filter in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 10
+[14-Jun-2024 10:59:53 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nombre_tourist_atraction_filter in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 11
+[14-Jun-2024 11:09:50 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: draw in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 13
+[14-Jun-2024 11:09:50 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: start in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 14
+[14-Jun-2024 11:09:50 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: length in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 15
+[14-Jun-2024 11:09:50 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: order in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 16
+[14-Jun-2024 11:09:50 America/Argentina/Buenos_Aires] PHP Notice:  Trying to access array offset on value of type null in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 16
+[14-Jun-2024 11:09:50 America/Argentina/Buenos_Aires] PHP Notice:  Trying to access array offset on value of type null in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 16
+[14-Jun-2024 11:09:50 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: columns in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 17
+[14-Jun-2024 11:09:50 America/Argentina/Buenos_Aires] PHP Notice:  Trying to access array offset on value of type null in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 17
+[14-Jun-2024 11:09:50 America/Argentina/Buenos_Aires] PHP Notice:  Trying to access array offset on value of type null in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 17
+[14-Jun-2024 11:09:50 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: order in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 18
+[14-Jun-2024 11:09:50 America/Argentina/Buenos_Aires] PHP Notice:  Trying to access array offset on value of type null in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 18
+[14-Jun-2024 11:09:50 America/Argentina/Buenos_Aires] PHP Notice:  Trying to access array offset on value of type null in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 18
+[14-Jun-2024 11:09:50 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: search in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 19
+[14-Jun-2024 11:09:50 America/Argentina/Buenos_Aires] PHP Notice:  Trying to access array offset on value of type null in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 19
+[14-Jun-2024 11:09:54 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: draw in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 13
+[14-Jun-2024 11:09:54 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: start in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 14
+[14-Jun-2024 11:09:54 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: length in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 15
+[14-Jun-2024 11:09:54 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: order in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 16
+[14-Jun-2024 11:09:54 America/Argentina/Buenos_Aires] PHP Notice:  Trying to access array offset on value of type null in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 16
+[14-Jun-2024 11:09:54 America/Argentina/Buenos_Aires] PHP Notice:  Trying to access array offset on value of type null in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 16
+[14-Jun-2024 11:09:54 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: columns in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 17
+[14-Jun-2024 11:09:54 America/Argentina/Buenos_Aires] PHP Notice:  Trying to access array offset on value of type null in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 17
+[14-Jun-2024 11:09:54 America/Argentina/Buenos_Aires] PHP Notice:  Trying to access array offset on value of type null in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 17
+[14-Jun-2024 11:09:54 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: order in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 18
+[14-Jun-2024 11:09:54 America/Argentina/Buenos_Aires] PHP Notice:  Trying to access array offset on value of type null in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 18
+[14-Jun-2024 11:09:54 America/Argentina/Buenos_Aires] PHP Notice:  Trying to access array offset on value of type null in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 18
+[14-Jun-2024 11:09:54 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: search in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 19
+[14-Jun-2024 11:09:54 America/Argentina/Buenos_Aires] PHP Notice:  Trying to access array offset on value of type null in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 19
+[14-Jun-2024 11:09:56 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: draw in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 13
+[14-Jun-2024 11:09:56 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: start in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 14
+[14-Jun-2024 11:09:56 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: length in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 15
+[14-Jun-2024 11:09:56 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: order in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 16
+[14-Jun-2024 11:09:56 America/Argentina/Buenos_Aires] PHP Notice:  Trying to access array offset on value of type null in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 16
+[14-Jun-2024 11:09:56 America/Argentina/Buenos_Aires] PHP Notice:  Trying to access array offset on value of type null in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 16
+[14-Jun-2024 11:09:56 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: columns in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 17
+[14-Jun-2024 11:09:56 America/Argentina/Buenos_Aires] PHP Notice:  Trying to access array offset on value of type null in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 17
+[14-Jun-2024 11:09:56 America/Argentina/Buenos_Aires] PHP Notice:  Trying to access array offset on value of type null in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 17
+[14-Jun-2024 11:09:56 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: order in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 18
+[14-Jun-2024 11:09:56 America/Argentina/Buenos_Aires] PHP Notice:  Trying to access array offset on value of type null in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 18
+[14-Jun-2024 11:09:56 America/Argentina/Buenos_Aires] PHP Notice:  Trying to access array offset on value of type null in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 18
+[14-Jun-2024 11:09:56 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: search in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 19
+[14-Jun-2024 11:09:56 America/Argentina/Buenos_Aires] PHP Notice:  Trying to access array offset on value of type null in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 19
+[14-Jun-2024 11:09:56 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: draw in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 13
+[14-Jun-2024 11:09:56 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: start in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 14
+[14-Jun-2024 11:09:56 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: length in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 15
+[14-Jun-2024 11:09:56 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: order in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 16
+[14-Jun-2024 11:09:56 America/Argentina/Buenos_Aires] PHP Notice:  Trying to access array offset on value of type null in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 16
+[14-Jun-2024 11:09:56 America/Argentina/Buenos_Aires] PHP Notice:  Trying to access array offset on value of type null in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 16
+[14-Jun-2024 11:09:56 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: columns in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 17
+[14-Jun-2024 11:09:56 America/Argentina/Buenos_Aires] PHP Notice:  Trying to access array offset on value of type null in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 17
+[14-Jun-2024 11:09:56 America/Argentina/Buenos_Aires] PHP Notice:  Trying to access array offset on value of type null in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 17
+[14-Jun-2024 11:09:56 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: order in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 18
+[14-Jun-2024 11:09:56 America/Argentina/Buenos_Aires] PHP Notice:  Trying to access array offset on value of type null in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 18
+[14-Jun-2024 11:09:56 America/Argentina/Buenos_Aires] PHP Notice:  Trying to access array offset on value of type null in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 18
+[14-Jun-2024 11:09:56 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: search in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 19
+[14-Jun-2024 11:09:56 America/Argentina/Buenos_Aires] PHP Notice:  Trying to access array offset on value of type null in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 19
+[14-Jun-2024 11:09:56 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: draw in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 13
+[14-Jun-2024 11:09:56 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: start in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 14
+[14-Jun-2024 11:09:56 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: length in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 15
+[14-Jun-2024 11:09:56 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: order in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 16
+[14-Jun-2024 11:09:56 America/Argentina/Buenos_Aires] PHP Notice:  Trying to access array offset on value of type null in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 16
+[14-Jun-2024 11:09:56 America/Argentina/Buenos_Aires] PHP Notice:  Trying to access array offset on value of type null in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 16
+[14-Jun-2024 11:09:56 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: columns in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 17
+[14-Jun-2024 11:09:56 America/Argentina/Buenos_Aires] PHP Notice:  Trying to access array offset on value of type null in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 17
+[14-Jun-2024 11:09:56 America/Argentina/Buenos_Aires] PHP Notice:  Trying to access array offset on value of type null in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 17
+[14-Jun-2024 11:09:56 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: order in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 18
+[14-Jun-2024 11:09:56 America/Argentina/Buenos_Aires] PHP Notice:  Trying to access array offset on value of type null in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 18
+[14-Jun-2024 11:09:56 America/Argentina/Buenos_Aires] PHP Notice:  Trying to access array offset on value of type null in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 18
+[14-Jun-2024 11:09:56 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: search in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 19
+[14-Jun-2024 11:09:56 America/Argentina/Buenos_Aires] PHP Notice:  Trying to access array offset on value of type null in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 19
+[14-Jun-2024 11:18:52 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: details_tourist_attention in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 91
+[14-Jun-2024 11:19:09 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: details_tourist_attention in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 90
+[14-Jun-2024 11:23:28 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function errorInfo() on null in /home/infotur/public_html/api/atractivos/ActualizarAtractivo.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/infotur/public_html/api/atractivos/ActualizarAtractivo.php on line 21
+[14-Jun-2024 11:23:39 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function errorInfo() on null in /home/infotur/public_html/api/atractivos/ActualizarAtractivo.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/infotur/public_html/api/atractivos/ActualizarAtractivo.php on line 21
+[14-Jun-2024 11:23:53 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function errorInfo() on null in /home/infotur/public_html/api/atractivos/ActualizarAtractivo.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/infotur/public_html/api/atractivos/ActualizarAtractivo.php on line 21
+[05-Jul-2024 11:11:35 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: name_role in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 77
+[05-Jul-2024 11:11:35 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: name_role in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 77
+[05-Jul-2024 12:16:09 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: name_role in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 77
+[05-Jul-2024 12:16:09 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: name_role in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 77
+[18-Jul-2024 09:43:31 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: name_role in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 77
+[18-Jul-2024 09:43:31 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: name_role in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 77
+[18-Jul-2024 09:43:31 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: name_role in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 77
+[18-Jul-2024 09:43:31 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: name_role in /home/infotur/public_html/api/atractivos/ObtenerAtractivos.php on line 77

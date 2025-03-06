@@ -1,0 +1,60 @@
+[11-Feb-2024 02:32:17 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on null in /home/infotur/public_html/api/publica/alojamientos/ObtenerCaracteristicas.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/infotur/public_html/api/publica/alojamientos/ObtenerCaracteristicas.php on line 7
+[11-Feb-2024 02:32:47 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on null in /home/infotur/public_html/api/publica/alojamientos/ObtenerCaracteristicas.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/infotur/public_html/api/publica/alojamientos/ObtenerCaracteristicas.php on line 7
+[11-Feb-2024 01:37:50 America/New_York] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/infotur/public_html/api/publica/alojamientos/ObtenerAlojamientoPorCaracteristica.php on line 5
+[11-Feb-2024 01:38:43 America/New_York] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/infotur/public_html/api/publica/alojamientos/ObtenerAlojamientoPorCaracteristica.php on line 5
+[11-Feb-2024 03:39:11 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home/infotur/public_html/api/publica/alojamientos/ObtenerAlojamientoPorCaracteristica.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/infotur/public_html/api/publica/alojamientos/ObtenerAlojamientoPorCaracteristica.php on line 12
+[11-Feb-2024 01:39:55 America/New_York] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/infotur/public_html/api/publica/alojamientos/ObtenerAlojamientoPorCaracteristica.php on line 7
+[11-Feb-2024 01:40:27 America/New_York] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/infotur/public_html/api/publica/alojamientos/ObtenerAlojamientoPorCaracteristica.php on line 7
+[11-Feb-2024 01:41:15 America/New_York] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/infotur/public_html/api/publica/alojamientos/ObtenerAlojamientoPorCaracteristica.php on line 7
+[11-Feb-2024 01:42:26 America/New_York] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/infotur/public_html/api/publica/alojamientos/ObtenerAlojamientoPorCaracteristica.php on line 7
+[11-Feb-2024 01:43:40 America/New_York] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/infotur/public_html/api/publica/alojamientos/ObtenerAlojamientoPorCaracteristica.php on line 7
+[11-Feb-2024 03:44:05 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home/infotur/public_html/api/publica/alojamientos/ObtenerAlojamientoPorCaracteristica.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/infotur/public_html/api/publica/alojamientos/ObtenerAlojamientoPorCaracteristica.php on line 10
+[11-Feb-2024 03:44:32 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home/infotur/public_html/api/publica/alojamientos/ObtenerAlojamientoPorCaracteristica.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/infotur/public_html/api/publica/alojamientos/ObtenerAlojamientoPorCaracteristica.php on line 10
+[11-Feb-2024 03:47:26 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home/infotur/public_html/api/publica/alojamientos/ObtenerAlojamientoPorCaracteristica.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/infotur/public_html/api/publica/alojamientos/ObtenerAlojamientoPorCaracteristica.php on line 10
+[11-Feb-2024 03:47:29 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home/infotur/public_html/api/publica/alojamientos/ObtenerAlojamientoPorCaracteristica.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/infotur/public_html/api/publica/alojamientos/ObtenerAlojamientoPorCaracteristica.php on line 10
+[11-Feb-2024 03:47:43 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home/infotur/public_html/api/publica/alojamientos/ObtenerAlojamientoPorCaracteristica.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/infotur/public_html/api/publica/alojamientos/ObtenerAlojamientoPorCaracteristica.php on line 12
+[11-Feb-2024 10:13:41 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home/infotur/public_html/api/publica/alojamientos/ObtenerAlojamientoDisponiblePorTipo.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/infotur/public_html/api/publica/alojamientos/ObtenerAlojamientoDisponiblePorTipo.php on line 30
+[11-Feb-2024 10:13:56 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home/infotur/public_html/api/publica/alojamientos/ObtenerAlojamientoDisponiblePorTipo.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/infotur/public_html/api/publica/alojamientos/ObtenerAlojamientoDisponiblePorTipo.php on line 26
+[11-Feb-2024 10:13:58 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home/infotur/public_html/api/publica/alojamientos/ObtenerAlojamientoDisponiblePorTipo.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/infotur/public_html/api/publica/alojamientos/ObtenerAlojamientoDisponiblePorTipo.php on line 26
+[11-Feb-2024 10:15:58 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home/infotur/public_html/api/publica/alojamientos/ObtenerAlojamientoDisponiblePorTipo.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/infotur/public_html/api/publica/alojamientos/ObtenerAlojamientoDisponiblePorTipo.php on line 26
+[11-Feb-2024 10:16:01 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home/infotur/public_html/api/publica/alojamientos/ObtenerAlojamientoDisponiblePorTipo.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/infotur/public_html/api/publica/alojamientos/ObtenerAlojamientoDisponiblePorTipo.php on line 26
+[11-Feb-2024 09:08:26 America/New_York] PHP Parse error:  syntax error, unexpected '$field' (T_VARIABLE), expecting ')' in /home/infotur/public_html/api/publica/alojamientos/ObtenerAlojamientoDisponiblePorTipo.php on line 24

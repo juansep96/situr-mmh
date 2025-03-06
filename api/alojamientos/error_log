@@ -1,0 +1,20 @@
+[14-Jun-2024 04:49:19 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to undefined function str_contains() in /home/infotur/public_html/api/alojamientos/ObtenerAlojamientosFiltrados.php:78
+Stack trace:
+#0 {main}
+  thrown in /home/infotur/public_html/api/alojamientos/ObtenerAlojamientosFiltrados.php on line 78
+[14-Jun-2024 04:50:39 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to undefined function str_contains() in /home/infotur/public_html/api/alojamientos/ObtenerAlojamientosFiltrados.php:82
+Stack trace:
+#0 {main}
+  thrown in /home/infotur/public_html/api/alojamientos/ObtenerAlojamientosFiltrados.php on line 82
+[14-Jun-2024 04:51:09 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to undefined function str_contains() in /home/infotur/public_html/api/alojamientos/ObtenerAlojamientosFiltrados.php:83
+Stack trace:
+#0 {main}
+  thrown in /home/infotur/public_html/api/alojamientos/ObtenerAlojamientosFiltrados.php on line 83
+[14-Jun-2024 04:51:34 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to undefined function str_contains() in /home/infotur/public_html/api/alojamientos/ObtenerAlojamientosFiltrados.php:83
+Stack trace:
+#0 {main}
+  thrown in /home/infotur/public_html/api/alojamientos/ObtenerAlojamientosFiltrados.php on line 83
+[14-Jun-2024 04:51:47 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to undefined function str_contains() in /home/infotur/public_html/api/alojamientos/ObtenerAlojamientosFiltrados.php:82
+Stack trace:
+#0 {main}
+  thrown in /home/infotur/public_html/api/alojamientos/ObtenerAlojamientosFiltrados.php on line 82
